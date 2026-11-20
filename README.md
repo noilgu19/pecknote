@@ -25,7 +25,7 @@ Windows는 영역 캡처를 제공하며 글 메모는 아직 없습니다. 앱�
 
 ## 개발 후원
 
-개발을 응원하고 싶다면 [Buy Me a Coffee](https://buymeacoffee.com/pecknote)(해외 카드)나 [카카오페이 송금](https://qr.kakaopay.com/FI0dPSyXu)(국내)으로 후원할 수 있습니다. 후원은 선택이며 앱 기능은 달라지지 않습니다.
+개발을 응원하고 싶다면 [Buy Me a Coffee](https://buymeacoffee.com/pecknote)(해외 카드)나 [카카오페이 송금](https://qr.kakaopay.com/FI0dPSyXu)(국내)으로 후원할 수 있습니다. 카카오페이 송금은 휴대폰에서만 열리므로 PC에서는 [안내 사이트](https://noilgu19.github.io/pecknote/)의 QR 코드를 휴대폰으로 찍어 주세요. 후원은 선택이며 앱 기능은 달라지지 않습니다.
 
 ## English
 
@@ -37,4 +37,4 @@ On Mac, the app is not Apple-notarized: allow it in System Settings › Privacy 
 
 Reviews stay locally; sending to your configured inbox or sending product feedback is your choice. Update hosts see your network address. Read [privacy](PRIVACY.md) and [third-party notices](THIRD-PARTY-NOTICES.md). Send feedback from app settings or [public issues](https://github.com/noilgu19/pecknote/issues); never include secrets or private screenshots.
 
-If you would like to support development: [Buy Me a Coffee](https://buymeacoffee.com/pecknote), or [KakaoPay](https://qr.kakaopay.com/FI0dPSyXu) within Korea. It is optional and changes nothing in the app.
+If you would like to support development: [Buy Me a Coffee](https://buymeacoffee.com/pecknote), or [KakaoPay](https://qr.kakaopay.com/FI0dPSyXu) within Korea (opens on a phone only; the site shows a QR code). It is optional and changes nothing in the app.
