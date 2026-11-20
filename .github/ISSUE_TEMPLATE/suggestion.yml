@@ -1,0 +1,13 @@
+name: 제안
+description: 사용하면서 바라는 점
+body:
+  - type: markdown
+    attributes:
+      value: "이 이슈는 공개됩니다. 비밀·접속 키·개인정보·개인 화면은 붙이지 마세요."
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 어떤 상황에서 무엇이 필요했나요?
+      description: 해결하려는 문제와 바라는 동작을 적어 주세요.
+    validations:
+      required: true

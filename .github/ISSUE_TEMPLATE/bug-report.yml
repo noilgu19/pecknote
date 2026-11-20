@@ -1,0 +1,18 @@
+name: 문제 신고
+description: 콕!노트 시험판에서 겪은 문제
+body:
+  - type: markdown
+    attributes:
+      value: "이 이슈는 공개됩니다. 비밀·접속 키·개인정보·개인 화면은 붙이지 마세요. 삭제 요청은 접수 ID만 적어 주세요."
+  - type: textarea
+    id: problem
+    attributes:
+      label: 어떤 문제가 있었나요?
+      description: 기대한 동작과 실제 동작, 재현 순서를 적어 주세요. 민감한 내용은 지워 주세요.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 앱 버전과 운영체제
+      description: 설정에 표시된 버전과 운영체제만 적어 주세요.

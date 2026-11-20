@@ -23,6 +23,10 @@ Windows는 영역 캡처를 제공하며 글 메모는 아직 없습니다. 앱�
 
 앱 설정의 ‘제작자에게 의견 보내기’ 또는 이 저장소의 [이슈](https://github.com/noilgu19/pecknote/issues)를 이용하세요. 공개 이슈에는 비밀·접속 키·개인 화면·개인정보를 올리지 마세요. 의견 삭제 요청도 접수 ID가 있다면 ID만 적어 이슈에 남길 수 있습니다.
 
+## 개발 후원
+
+개발을 응원하고 싶다면 [Buy Me a Coffee](https://buymeacoffee.com/pecknote)에서 후원할 수 있습니다. 후원은 선택이며 앱 기능은 달라지지 않습니다.
+
 ## English
 
 PeckNote is a trial for collecting screen and text annotations and preparing a prompt for an AI conversation. It is free for personal, non-commercial use only; redistribution and commercial use are not permitted for now. The source is not published. Publisher: noilgu19. See [Terms of use](LICENSE.md).
@@ -32,3 +36,5 @@ Download the Apple Silicon Mac ZIP or Windows x64 installer from [latest release
 On Mac, the app is not Apple-notarized: allow it in System Settings › Privacy & Security › Open Anyway. Screen Recording captures the screen; Accessibility reads selected text and supports requested pasting. macOS may repeat its recording reminder. On Windows, use More info › Run anyway on SmartScreen; the app cannot run with Smart App Control enabled. Installation is per user and downloads WebView2 if needed.
 
 Reviews stay locally; sending to your configured inbox or sending product feedback is your choice. Update hosts see your network address. Read [privacy](PRIVACY.md) and [third-party notices](THIRD-PARTY-NOTICES.md). Send feedback from app settings or [public issues](https://github.com/noilgu19/pecknote/issues); never include secrets or private screenshots.
+
+If you would like to support development: [Buy Me a Coffee](https://buymeacoffee.com/pecknote). It is optional and changes nothing in the app.
