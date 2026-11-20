@@ -1,0 +1,15 @@
+{
+  "version": "0.3.0",
+  "notes": "콕!노트(PeckNote)의 첫 공개 시험판입니다.\n\n- 화면의 일부를 골라 번호가 붙은 메모를 남기고, 여러 메모를 하나의 요청으로 모아 AI 대화에 넣을 초안을 준비합니다. 최종 전송은 직접 합니다.\n- macOS(Apple Silicon)는 다른 앱에서 선택한 글에도 메모를 붙일 수 있습니다. Windows(x64)는 화면 메모만 제공합니다.\n- 화면 메모 단축키(기본 Alt/Option+Shift+M)는 설정에서 바꿀 수 있습니다.\n- 7일 동안 고치지 않은 메모는 자동으로 정리합니다. 설정에서 끌 수 있습니다.\n\n시험판이라 Mac은 Apple 공증이 없고 Windows 설치 파일은 서명되지 않았습니다. 처음 실행하는 방법은 안내 페이지를 봐 주세요: https://noilgu19.github.io/pecknote/\n문제나 의견은 앱 설정의 '제작자에게 의견 보내기' 또는 이 저장소의 이슈로 알려 주세요.\n",
+  "pub_date": "2026-11-20T04:59:21.647Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "url": "https://github.com/noilgu19/pecknote/releases/download/v0.3.0/PeckNote-0.3.0-mac-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTY3RsRlV5anJ3MU1ObjBuNEtjUEZoQk1QS3dLL1hLT24yUCtEQTBzbEZEWTQ3NU8vNE0xdThIR1FWN3MyRDNBMnl2N0dnVWt6OHduT2NBaVA5YVpkN2IxemlTK3kyOGdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTUwNzYxCWZpbGU6UGVja05vdGUtMC4zLjAtbWFjLWFybTY0LmFwcC50YXIuZ3oJdmVyc2lvbjowLjMuMApHYjYrK0NVTzdvRUplR1RhQVkzRjlUTWRCK1g5UzFrdHg1NHlIcFozT1dqOUJzWnRtVVdKNzRHMWdsRjl0M0hlNndWOWhEd1plY0Fwd1BYZ1Z2TEREUT09Cg=="
+    },
+    "windows-x86_64": {
+      "url": "https://github.com/noilgu19/pecknote/releases/download/v0.3.0/PeckNote-0.3.0-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTY3RsRlV5anJ3MUh4WkJPSElBUy9YL0NEYXIxTVZhT25wRmJJRUl2SVlHa3h1UitmNElGT2U3UXA5ZmxCazRTQm9RSDJ4QXQwdzY3V2Z6dktqaVRHWW1NaFEwTzhxRWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTUwNzYxCWZpbGU6UGVja05vdGUtMC4zLjAtd2luZG93cy14NjQtc2V0dXAuZXhlCXZlcnNpb246MC4zLjAKOVZXekIvNmdGSzdsc1MyYU5SZG1ZQWdvZ24xc3ZaVmN3REFwZmlDektOVUhuTVBpSjd6MWlxenQ3QmdWcWR0NTQ1cHhHbllDQjlBZ2RKcmdlS3daQVE9PQo="
+    }
+  }
+}
