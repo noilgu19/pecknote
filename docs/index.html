@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ko">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="화면의 일부와 글에 메모를 붙여 AI에 전달할 요청을 준비하는 콕!노트(PeckNote) 시험판"><title>콕!노트 · 화면에 붙이는 메모</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<svg class="sprite" aria-hidden="true" focusable="false">
+<symbol id="peck" viewBox="0 0 120 120">
+<path d="M22 66c-9-3-15-10-16-19 9 1 17 5 22 11z" fill="#0f9d94"/>
+<path d="M52 22c-2-7 1-12 6-14 1 5 0 10-2 14zM60 21c1-6 5-10 10-10-1 5-3 9-7 12z" fill="#0f9d94"/>
+<ellipse cx="60" cy="66" rx="41" ry="39" fill="#22b8a8"/>
+<ellipse cx="64" cy="80" rx="27" ry="22" fill="#eafaf7"/>
+<path d="M30 68c2-12 12-19 24-17 4 11-1 23-12 27-7 0-11-4-12-10z" fill="#0f9d94"/>
+<circle cx="78" cy="50" r="8.500" fill="#152524"/><circle cx="81" cy="47" r="2.800" fill="#fff"/>
+<ellipse cx="88" cy="64" rx="6" ry="3.600" fill="#ff9f8c" opacity=".75"/>
+<path d="M97 52c8 1 14 4 18 9-5 3-12 5-19 4z" fill="#ffc233"/><path d="M96 61c7 2 13 2 19 0-5 3-12 5-19 4z" fill="#f0a81c"/>
+<path d="M50 103v9m-5 0h10M70 103v9m-5 0h10" stroke="#f0a81c" stroke-width="3.400" stroke-linecap="round" fill="none"/>
+</symbol>
+<symbol id="peck-front" viewBox="0 0 120 120">
+<path d="M54 20c-3-7 0-13 5-15 2 5 1 11-1 15zM62 19c1-6 5-10 10-10-1 5-3 9-7 12z" fill="#0f9d94"/>
+<path d="M60 18c26 0 44 19 44 46 0 26-19 42-44 42S16 90 16 64c0-27 18-46 44-46z" fill="#22b8a8"/>
+<ellipse cx="60" cy="78" rx="27" ry="23" fill="#eafaf7"/>
+<path d="M17 62c5-3 12-2 16 3 2 9-1 18-9 22-6-6-9-15-7-25zM103 62c-5-3-12-2-16 3-2 9 1 18 9 22 6-6 9-15 7-25z" fill="#0f9d94"/>
+<circle cx="44" cy="52" r="7.500" fill="#152524"/><circle cx="46.500" cy="49.500" r="2.500" fill="#fff"/>
+<circle cx="76" cy="52" r="7.500" fill="#152524"/><circle cx="78.500" cy="49.500" r="2.500" fill="#fff"/>
+<ellipse cx="34" cy="64" rx="6" ry="3.600" fill="#ff9f8c" opacity=".75"/><ellipse cx="86" cy="64" rx="6" ry="3.600" fill="#ff9f8c" opacity=".75"/>
+<path d="M51 58h18l-9 12z" fill="#ffc233"/><path d="M54.500 63h11l-5.500 7z" fill="#f0a81c"/>
+<path d="M50 104v8m-5 0h10M70 104v8m-5 0h10" stroke="#f0a81c" stroke-width="3.400" stroke-linecap="round" fill="none"/>
+</symbol>
+</svg>
+<header><a class="brand" href="index.html" aria-label="콕!노트 홈"><span class="wordmark"><svg class="mark" aria-hidden="true" focusable="false"><use href="#peck"/></svg><span class="name">콕<span class="bang">!</span>노트</span></span></a><span>시험판 · noilgu19</span></header>
+<main>
+<section class="hero"><div><svg class="peck-hero" role="img" aria-label="Peck"><use href="#peck-front"/></svg><p class="eyebrow">생각이 생긴 바로 그곳에서 콕 짚어, 또박또박.</p><h1>이 부분에<br>하고 싶은 말.</h1><p>말로는 ‘여기’가 전해지지 않고, 여러 건을 한꺼번에 말하면 섞입니다.<br>콕!노트(PeckNote)는 화면의 일부나 선택한 글에 번호를 붙여 메모하고, 주변 맥락과 함께 하나의 요청으로 모읍니다.<br>받는 쪽이 AI든 사람이든 눈치껏 알아듣게 하는 대신, 보내는 쪽이 정확해집니다. 저장하거나 AI 대화에 넣을 초안만 준비하고, 최종 전송은 직접 합니다.</p><p lang="en" class="muted">PeckNote is a trial for collecting screen and text annotations, saving reviews, and preparing a prompt for your AI conversation. Free for personal, non-commercial use only; redistribution and commercial use are not permitted for now. You decide when to send.</p><div class="downloads"><a class="button primary" href="https://github.com/noilgu19/pecknote/releases/latest">macOS · Apple Silicon</a><a class="button secondary" href="https://github.com/noilgu19/pecknote/releases/latest">Windows · x64</a></div><p class="small">다운로드에는 인터넷 연결이 필요합니다. ‘시험판’ 이름의 최신 릴리스를 제공합니다. 이전 버전은 <a href="https://github.com/noilgu19/pecknote/releases">전체 릴리스 목록</a>에서 확인하세요.</p></div>
+<figure class="illustration"><div class="mock-document"><div class="mock-title">함께 검토할 문서</div><p>좋은 피드백은<br><mark><span class="pin">1</span>어느 부분인지</mark><br>함께 전할 때 시작됩니다.</p></div><div class="bubble"><div class="bubble-head"><span class="pin">1</span><span>메모</span></div><p>여기에 예시를 하나<br>더 넣으면 어떨까요?</p><span class="mock-save">메모 모으기</span></div><figcaption>동작을 설명하는 그림 · 실제 앱 화면이 아닙니다</figcaption></figure></section>
+<section><h2>처음 실행할 때</h2><div class="columns"><article class="panel"><h3>macOS · Apple Silicon</h3><ol><li>ZIP을 풀고 PeckNote.app을 응용 프로그램 폴더로 옮깁니다. Finder와 시스템 설정의 권한 목록에는 한국어 시스템에서 콕!노트, 영어 시스템에서 PeckNote로 표시됩니다.</li><li>Apple 공증을 받지 않은 시험판이므로 첫 실행이 차단됩니다. 시스템 설정 › 개인정보 보호 및 보안 › <strong>그래도 열기</strong>에서 허용한 뒤 다시 엽니다.</li><li><strong>화면 기록</strong>은 선택한 화면과 주변을 캡처하는 데, <strong>손쉬운 사용</strong>은 다른 앱의 선택 글 읽기와 사용자가 요청한 붙여넣기에 필요합니다. 앱 설정에서 권한 상태를 확인하세요.</li></ol><p class="small">macOS는 자체 화면 기록 확인 알림을 반복해서 표시할 수 있습니다. 앱의 오류 알림과 구분해 주세요.</p></article><article class="panel"><h3>Windows · x64</h3><ol><li>setup.exe를 실행합니다. 현재 사용자 계정에 설치합니다.</li><li>‘Windows의 PC 보호’가 뜨면 <strong>추가 정보 › 실행</strong>을 선택합니다. 설치 파일은 코드 서명되지 않았습니다.</li><li><strong>Smart App Control이 켜진 환경에서는 실행할 수 없습니다.</strong> 조직의 보안 설정을 따르세요.</li><li>WebView2가 없으면 설치 중 bootstrapper를 인터넷으로 내려받아 설치합니다.</li></ol><p class="small">Windows 설치·캡처 동작은 실제 PC에서 확인이 필요한 시험판입니다.</p></article></div></section>
+<section class="columns"><div><h2>아직 확인할 것이 있습니다</h2><ul><li>Windows는 영역 캡처를 제공하며 글 메모는 아직 없습니다.</li><li>Intel Mac용 빌드는 제공하지 않습니다.</li><li>AI에 자동 전송하지 않습니다. 전달 내용을 확인하고 직접 전송하세요.</li><li>앱별 선택 글 읽기와 다중 모니터·배율은 환경에 따라 다를 수 있습니다.</li></ul></div><div><h2>업데이트와 의견</h2><p>앱은 시작할 때 하루에 한 번까지 업데이트를 확인합니다. 설정에서 직접 확인할 수도 있습니다. 새 버전 안내에서 ‘지금 업데이트’를 누르면 저장 후 내려받아 서명을 확인하고 다시 시작합니다.</p><p>설정의 ‘제작자에게 의견 보내기’ 또는 <a href="https://github.com/noilgu19/pecknote/issues">공개 이슈</a>로 의견을 남겨 주세요. 비밀과 개인 화면은 올리지 마세요.</p><p>저장 위치와 전송 항목은 <a href="privacy.html">개인정보 안내</a>, 사용한 라이브러리는 <a href="third-party-notices.html">오픈소스 고지</a>에서 확인할 수 있습니다.</p></div></section>
+</main><footer>게시자 noilgu19 · 소스는 공개하지 않습니다. 개인적·비상업적 용도에 한해 무료로 사용할 수 있으며, 현재 재배포와 상업적 사용은 허용하지 않습니다. <a href="https://github.com/noilgu19/pecknote/blob/main/LICENSE.md">이용 조건</a> <a href="privacy.html">개인정보 안내</a></footer>
+</body></html>
