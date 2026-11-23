@@ -1,15 +1,15 @@
 {
-  "version": "0.3.1",
-  "notes": "- 설정에 '개발 후원' 링크를 추가했습니다. 누르면 안내 페이지의 후원 항목이 브라우저에서 열립니다. 후원은 선택이며 앱 기능은 달라지지 않습니다.\n\n그 밖의 기능은 0.3.0과 같습니다. 처음 실행하는 방법은 안내 페이지를 봐 주세요: https://noilgu19.github.io/pecknote/\n",
-  "pub_date": "2026-11-20T08:23:42.230Z",
+  "version": "0.3.2",
+  "notes": "- 설정에 '사용 방법' 링크를 추가했습니다. 누르면 안내 사이트의 사용 방법 페이지가 브라우저에서 열리고, 그 페이지에서 '그림으로 따라 하기'로 갈 수 있습니다.\n\n그 밖의 기능은 0.3.1과 같습니다. 처음 쓰는 방법은 여기에서 볼 수 있습니다: https://noilgu19.github.io/pecknote/tutorial.html\n",
+  "pub_date": "2026-11-23T04:46:50.770Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/noilgu19/pecknote/releases/download/v0.3.1/PeckNote-0.3.1-mac-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTY3RsRlV5anJ3MURuVFYvaWJUai91NDB0SVlIZFRLeGtlclM0d0tUTC9YS1h6MHNHdlZ4TDhjYU0zVHlDcWp0eDZ4akRwYjQxdHRXZEhwcC9UVlRCYW9GZmZVUlpZRWdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTYzMDIyCWZpbGU6UGVja05vdGUtMC4zLjEtbWFjLWFybTY0LmFwcC50YXIuZ3oJdmVyc2lvbjowLjMuMQpwTFdUamdHNkVhWTd6WkZ2MGNpemRacUJNRjZ2ajZ5c2VBajFRUytUV1RSdGpBbVJjVk53YktreUNocG1xTytUeTBZalpSQU5TbGpBVCtOck9IV05Bdz09Cg=="
+      "url": "https://github.com/noilgu19/pecknote/releases/download/v0.3.2/PeckNote-0.3.2-mac-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTY3RsRlV5anJ3MUlhazlpSFp6ekovZ3pNblp2U2ZFd2t2UlJsR1pNKzd3eEJ2VmRrVXBXWm1tUnZxYWdDK1d3aVlaVDNTUDArM2xvRVFMbmE3RnlUcUtuZk5WcU5aWUFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDA5MjEwCWZpbGU6UGVja05vdGUtMC4zLjItbWFjLWFybTY0LmFwcC50YXIuZ3oJdmVyc2lvbjowLjMuMgorQTQwUy81Q3JNS3Zka0VJYnFIaTU3dWxLTTlQd2xDVE8xV0h0QmJ4NFN4TExtT0ZzQ3RheWkwWWdCeEtOTjlqVTVwY2dhbE1TcDRkOG1vWE5mSVhEdz09Cg=="
     },
     "windows-x86_64": {
-      "url": "https://github.com/noilgu19/pecknote/releases/download/v0.3.1/PeckNote-0.3.1-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTY3RsRlV5anJ3MVBIM2MxZGNXRHkxa2ZZRm9SVDkzb3pPQ0FzSHViYzZEQWZzODVZdEhkd1ZvMFA1K3g0OGZZNkt6QUN5QkhLV1BBRUdGSVNwTEZFWXVKN3BTUFBnQ0E0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTYzMDIyCWZpbGU6UGVja05vdGUtMC4zLjEtd2luZG93cy14NjQtc2V0dXAuZXhlCXZlcnNpb246MC4zLjEKQnJLOXJpYnI5Z1lIekNrdlFKT3o3Z2tHMy9HeTR0TjRneGFvbVI1dURtMUdvbHpQdkhFa3JvcklVS0xFbytrY05jYm9sVUVOb3FPWHJFQzBWeHZRQXc9PQo="
+      "url": "https://github.com/noilgu19/pecknote/releases/download/v0.3.2/PeckNote-0.3.2-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTY3RsRlV5anJ3MU10QURRV1Nkbmdkb0FKRXZlMFIrcHNHRkxzM1poaWxLSXBFM25RTHJZZW84TmhFc3RjaUVnRCtTWVhoM2JxbHBDbDZYWDdLaHVzTWRPZjBsSERkVUEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDA5MjEwCWZpbGU6UGVja05vdGUtMC4zLjItd2luZG93cy14NjQtc2V0dXAuZXhlCXZlcnNpb246MC4zLjIKU3I2RktkRmlha1FYMGRQbFhRYjVZTXdFeTdyTkJOQ1ZhSHR3UGJSR3BYTGxYZkV5cWhybW9HM0pHRUFEbUhvRjRDU0o5RUNZZ08ycG5SSE15SlRzQ3c9PQo="
     }
   }
 }
