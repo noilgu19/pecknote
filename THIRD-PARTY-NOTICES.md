@@ -10,7 +10,7 @@ This notice preserves third-party licence texts and attribution. It does not gra
 
 제외: 자체 로컬 패키지 screen-memo, screen-memo-desktop은 라이선스가 명시되지 않아 고지 대상에서 제외합니다. 앱·OS·WebView2 등 별도 배포 구성품 전체를 감사한 목록은 아닙니다.
 
-생성: cargo-about 0.9.3; ./scripts/generate-notices.sh; desktop/Cargo.lock SHA-256: b882db9f0dc750a573332e4e01ed1ab1aad0f91fa72b93d5ae372098d1516522
+생성: cargo-about 0.9.3; ./scripts/generate-notices.sh; desktop/Cargo.lock SHA-256: 8d9aa7f911a983a55724cfe38133a5d467bc707359ec66d29c75abbd2cc25906
 
 외부 패키지 329개. 아래 목록은 패키지 선언식과 선택한 라이선스를 구분하며 OR 선택은 desktop/about.toml의 우선순위를 따릅니다. 알 수 없거나 허용하지 않은 라이선스는 생성에 실패합니다.
 
