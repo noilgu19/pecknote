@@ -448,3 +448,117 @@ footer {
   display: block;
   margin-bottom: var(--s-2);
 }
+
+/* How-to page (guide.html): reading width, key caps, the key table, the contents list and question/answer pairs. */
+.guide {
+  max-width: 900px;
+  overflow-wrap: anywhere;
+}
+
+.guide h1 {
+  margin-top: 0;
+}
+
+.guide h2 {
+  scroll-margin-top: var(--s-4);
+}
+
+kbd {
+  display: inline-block;
+  padding: 0 var(--s-2);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r-sm);
+  background: var(--surface);
+  font: 600 var(--t-label) / 1.65 var(--font);
+  white-space: nowrap;
+}
+
+.toc ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-2) var(--s-4);
+  margin: var(--s-3) 0;
+  padding: 0;
+  list-style: none;
+}
+
+.toc li {
+  margin: 0;
+}
+
+.keys {
+  width: 100%;
+  border-collapse: collapse;
+  overflow-wrap: normal;
+  word-break: keep-all;
+}
+
+.keys th[scope="row"] {
+  width: 36%;
+}
+
+.keys th,
+.keys td {
+  padding: var(--s-2) var(--s-3);
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+
+.keys th {
+  background: var(--surface);
+  font-weight: 600;
+}
+
+.note {
+  padding: var(--s-3) var(--s-4);
+  border: 1px solid var(--tint-line);
+  border-radius: var(--r-md);
+  background: var(--tint);
+}
+
+.qa dt {
+  margin-top: var(--s-4);
+  font-weight: 600;
+}
+
+.qa dd {
+  margin: var(--s-1) 0 0;
+}
+
+/* Picture tutorial (tutorial.html): numbered steps, each with a heading and the app screen it is about. */
+.walk {
+  margin: var(--s-4) 0 0;
+  padding-left: var(--s-5);
+}
+
+.walk > li {
+  margin-bottom: var(--s-5);
+  padding-left: var(--s-1);
+}
+
+.walk h3 {
+  margin: 0 0 var(--s-2);
+}
+
+.tutorial figure {
+  margin: var(--s-3) 0 var(--s-4);
+}
+
+.tutorial figure img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+}
+
+.tutorial .shot-narrow img {
+  max-width: 340px;
+}
+
+.tutorial figcaption {
+  margin-top: var(--s-2);
+  color: var(--muted);
+  font-size: var(--t-sub);
+}
