@@ -15,7 +15,7 @@
 
 ## 사용 방법
 
-1. **콕 짚기:** 다른 앱 위에서 화면 메모 단축키(Mac ⌥+Shift+M, Windows Alt+Shift+M)를 누르고 화면의 한 부분을 드래그한 뒤 말풍선에 메모를 적어 저장합니다. Mac에서는 ⌥+Shift+T로 글 메모 모드를 켜고 다른 앱의 문장을 드래그해 메모할 수도 있습니다.
+1. **콕 짚기:** 다른 앱 위에서 화면 메모 단축키(Mac ⌥+Shift+M, Windows Alt+Shift+M)를 누르고 화면의 한 부분을 드래그한 뒤 말풍선에 메모를 적어 저장합니다. Mac에서는 ⌥+Shift+T로 글 메모 모드를 켜고 다른 앱의 문장을 드래그해 메모할 수도 있습니다. 가리킬 곳이 없는 생각은 메모 모음에서 **일반 메모**로 적을 수 있습니다(0.3.3 이상, Mac·Windows).
 2. **메모 모으기:** 같은 방법으로 메모를 모읍니다. 모은 메모는 ‘메모 모음’ 창에서 고르고 **프롬프트 만들기**로 하나의 요청 글로 묶습니다.
 3. **AI에 넘기기:** Mac은 **붙여넣기 준비**를 누르고 AI 입력창을 클릭한 뒤 ⌥+Shift+V를 누릅니다. Windows는 **경로와 함께 복사**를 누르고 같은 PC의 터미널 에이전트 입력창에 붙여넣습니다(웹 채팅에는 **다른 방법**의 **화면+요청 복사**). 전송은 직접 합니다.
 
@@ -23,7 +23,7 @@
 
 ## 범위와 업데이트
 
-Windows는 영역 캡처를 제공하며 글 메모는 아직 없습니다. 앱별 글 선택·다중 모니터·배율과 Windows 실제 설치는 추가 확인이 필요합니다. AI에 자동 전송하지 않습니다. 앱은 시작 시 하루에 한 번까지 업데이트를 확인하며 설정에서 수동 확인할 수 있습니다. ‘지금 업데이트’를 누르면 리뷰를 저장하고 다운로드·서명 검증 뒤 다시 시작합니다.
+Windows는 화면 메모(영역 캡처)와 일반 메모를 제공하며 글 메모는 아직 없습니다. 일반 메모가 든 리뷰는 0.3.2 이하에서 열리지 않습니다. 앱별 글 선택·다중 모니터·배율과 Windows 실제 설치는 추가 확인이 필요합니다. AI에 자동 전송하지 않습니다. 앱은 시작 시 하루에 한 번까지 업데이트를 확인하며 설정에서 수동 확인할 수 있습니다. ‘지금 업데이트’를 누르면 리뷰를 저장하고 다운로드·서명 검증 뒤 다시 시작합니다.
 
 ## 개인정보와 의견
 
@@ -41,7 +41,7 @@ PeckNote is a trial for collecting screen and text annotations and preparing a p
 
 A step-by-step how-to (in Korean) is at the [guide](https://noilgu19.github.io/pecknote/guide.html).
 
-Download the Apple Silicon Mac ZIP or Windows x64 installer from [latest release](https://github.com/noilgu19/pecknote/releases/latest), or [all releases](https://github.com/noilgu19/pecknote/releases) for earlier versions. Trial builds are published as regular releases titled 시험판. No Intel Mac build; Windows text annotations are not available yet. Nothing is sent to an AI automatically.
+Download the Apple Silicon Mac ZIP or Windows x64 installer from [latest release](https://github.com/noilgu19/pecknote/releases/latest), or [all releases](https://github.com/noilgu19/pecknote/releases) for earlier versions. Trial builds are published as regular releases titled 시험판. No Intel Mac build; Windows has screen memos and general memos (notes that point at no place, version 0.3.3 and later) but no text annotations yet. Nothing is sent to an AI automatically.
 
 On Mac, the app is not Apple-notarized: allow it in System Settings › Privacy & Security › Open Anyway. Screen Recording captures the screen; Accessibility reads selected text and supports requested pasting. macOS may repeat its recording reminder. On Windows, use More info › Run anyway on SmartScreen; the app cannot run with Smart App Control enabled. Installation is per user and downloads WebView2 if needed.
 

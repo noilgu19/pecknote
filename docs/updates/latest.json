@@ -1,15 +1,15 @@
 {
-  "version": "0.3.2",
-  "notes": "- 설정에 '사용 방법' 링크를 추가했습니다. 누르면 안내 사이트의 사용 방법 페이지가 브라우저에서 열리고, 그 페이지에서 '그림으로 따라 하기'로 갈 수 있습니다.\n\n그 밖의 기능은 0.3.1과 같습니다. 처음 쓰는 방법은 여기에서 볼 수 있습니다: https://noilgu19.github.io/pecknote/tutorial.html\n",
-  "pub_date": "2026-11-23T04:46:50.770Z",
+  "version": "0.3.3",
+  "notes": "- '일반 메모'를 추가했습니다. 화면이나 글의 특정 위치를 가리키지 않는 생각(전체 방향, 위치를 짚기 어려운 의견)을 메모 모음에서 '일반 메모' → '새 일반 메모'로 적을 수 있고, 다른 메모와 같은 번호 목록·같은 프롬프트에 함께 들어갑니다. Mac과 Windows 모두에서 됩니다.\n- 메모 목록에 '전체 지우기'를 추가했습니다. 작성자 필터나 체크와 상관없이 이 리뷰의 메모(화면·글·일반)를 한 번에 모두 지우고, 알림의 '되돌리기'나 실행 취소로 되살릴 수 있습니다.\n- 일반 메모가 들어 있는 리뷰와 .smemo 파일은 0.3.2 이하에서 열리지 않습니다.\n\n사용 방법: https://noilgu19.github.io/pecknote/guide.html\n",
+  "pub_date": "2026-11-25T06:49:40.327Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/noilgu19/pecknote/releases/download/v0.3.2/PeckNote-0.3.2-mac-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTY3RsRlV5anJ3MUlhazlpSFp6ekovZ3pNblp2U2ZFd2t2UlJsR1pNKzd3eEJ2VmRrVXBXWm1tUnZxYWdDK1d3aVlaVDNTUDArM2xvRVFMbmE3RnlUcUtuZk5WcU5aWUFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDA5MjEwCWZpbGU6UGVja05vdGUtMC4zLjItbWFjLWFybTY0LmFwcC50YXIuZ3oJdmVyc2lvbjowLjMuMgorQTQwUy81Q3JNS3Zka0VJYnFIaTU3dWxLTTlQd2xDVE8xV0h0QmJ4NFN4TExtT0ZzQ3RheWkwWWdCeEtOTjlqVTVwY2dhbE1TcDRkOG1vWE5mSVhEdz09Cg=="
+      "url": "https://github.com/noilgu19/pecknote/releases/download/v0.3.3/PeckNote-0.3.3-mac-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTY3RsRlV5anJ3MUVvSEEyZFcwSE9HQXpJbndyellKaGx2VTgvenI5Mk9FU1pKYlByZFhJVkU1TkFlRGc0R3J0bCs5UDVMNVM1Nk5leHlRR1ZGYm1TVmtoa0RKZXZmeHdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTg5Mzc5CWZpbGU6UGVja05vdGUtMC4zLjMtbWFjLWFybTY0LmFwcC50YXIuZ3oJdmVyc2lvbjowLjMuMwp0cGMyclc4cWpuUWR0RHJqY3lsWXNSdmMvK0ZNeSs5ZTRpSnBPd1Fsd3l5aUppd0x5dEhwN3BWODNFL3kzN3BmdkEzQTY2dm4wUzE0NEZGUGhNaUtCQT09Cg=="
     },
     "windows-x86_64": {
-      "url": "https://github.com/noilgu19/pecknote/releases/download/v0.3.2/PeckNote-0.3.2-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTY3RsRlV5anJ3MU10QURRV1Nkbmdkb0FKRXZlMFIrcHNHRkxzM1poaWxLSXBFM25RTHJZZW84TmhFc3RjaUVnRCtTWVhoM2JxbHBDbDZYWDdLaHVzTWRPZjBsSERkVUEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDA5MjEwCWZpbGU6UGVja05vdGUtMC4zLjItd2luZG93cy14NjQtc2V0dXAuZXhlCXZlcnNpb246MC4zLjIKU3I2RktkRmlha1FYMGRQbFhRYjVZTXdFeTdyTkJOQ1ZhSHR3UGJSR3BYTGxYZkV5cWhybW9HM0pHRUFEbUhvRjRDU0o5RUNZZ08ycG5SSE15SlRzQ3c9PQo="
+      "url": "https://github.com/noilgu19/pecknote/releases/download/v0.3.3/PeckNote-0.3.3-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTY3RsRlV5anJ3MUoxbC85YjV5RU00Rm0yT29ReG1BeGdhY0tJNE4xRzZzYTVMWEtZanhvNUpEd2NpWHpuUmdxK2o0eTdFVkFZWXVxTTY2OFloOTl4d1p2Uzc4Ump2SEE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTg5MzgwCWZpbGU6UGVja05vdGUtMC4zLjMtd2luZG93cy14NjQtc2V0dXAuZXhlCXZlcnNpb246MC4zLjMKaCs0UHVpOXlXb096MGRZTnNJWE56ZWdTSEZYV2VZR3lUZ1BhajMzanBJVWJIWDk0RzRmKzNWQnRlTFFWRW0waHRIbHhBRm9BV0plMWplM3RVOHNkQ2c9PQo="
     }
   }
 }
