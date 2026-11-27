@@ -1,15 +1,15 @@
 {
-  "version": "0.3.3",
-  "notes": "- '일반 메모'를 추가했습니다. 화면이나 글의 특정 위치를 가리키지 않는 생각(전체 방향, 위치를 짚기 어려운 의견)을 메모 모음에서 '일반 메모' → '새 일반 메모'로 적을 수 있고, 다른 메모와 같은 번호 목록·같은 프롬프트에 함께 들어갑니다. Mac과 Windows 모두에서 됩니다.\n- 메모 목록에 '전체 지우기'를 추가했습니다. 작성자 필터나 체크와 상관없이 이 리뷰의 메모(화면·글·일반)를 한 번에 모두 지우고, 알림의 '되돌리기'나 실행 취소로 되살릴 수 있습니다.\n- 일반 메모가 들어 있는 리뷰와 .smemo 파일은 0.3.2 이하에서 열리지 않습니다.\n\n사용 방법: https://noilgu19.github.io/pecknote/guide.html\n",
-  "pub_date": "2026-11-25T06:49:40.327Z",
+  "version": "0.3.4",
+  "notes": "- Mac의 전역 단축키 세 개(새 화면 메모, 글 메모 모드, 준비한 프롬프트 붙여넣기)를 설정의 '단축키'에서 각각 바꾸고 기본값으로 되돌릴 수 있습니다. 다른 기능이 쓰는 조합은 그 기능 이름과 함께 거절하며, 앱 안의 단축키 안내는 현재 조합을 보여 줍니다.\n- '다른 컴퓨터로 복사'가 여러 컴퓨터를 저장합니다. 설정의 '전달' → '원격 대상'에서 'SSH 대상 자동 찾기'로 SSH 설정의 별칭을 찾아 한 번에 등록하거나 직접 추가하고, 기본 대상 하나를 정합니다. 예전에 적어 둔 대상 하나는 기본 대상으로 옮겨집니다. 프롬프트 창에서는 '원격으로 복사' 옆에서 이번에 보낼 컴퓨터를 고릅니다.\n- 원격 대상마다 연결 확인이 생겼습니다. 접속, 전달 폴더, 파일 전송을 차례로 확인하고(작은 확인용 파일 하나만 보내고 지웁니다), 키 로그인이나 호스트 확인이 남아 있으면 무엇을 해야 하는지 알려 줍니다.\n- 원격 대상으로 Windows 컴퓨터(OpenSSH 서버)를 쓸 수 있습니다. 클립보드에는 그 컴퓨터에서 열리는 경로(C:/Users/…/.cache/screen-memo/handoff/…)가 들어갑니다.\n- 붙여넣기 단축키를 Ctrl·⌘가 들어간 조합으로 바꿔도 조합 키를 모두 뗀 뒤에 붙여넣습니다.\n\n사용 방법: https://noilgu19.github.io/pecknote/guide.html\n",
+  "pub_date": "2026-11-26T10:20:52.434Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/noilgu19/pecknote/releases/download/v0.3.3/PeckNote-0.3.3-mac-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTY3RsRlV5anJ3MUVvSEEyZFcwSE9HQXpJbndyellKaGx2VTgvenI5Mk9FU1pKYlByZFhJVkU1TkFlRGc0R3J0bCs5UDVMNVM1Nk5leHlRR1ZGYm1TVmtoa0RKZXZmeHdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTg5Mzc5CWZpbGU6UGVja05vdGUtMC4zLjMtbWFjLWFybTY0LmFwcC50YXIuZ3oJdmVyc2lvbjowLjMuMwp0cGMyclc4cWpuUWR0RHJqY3lsWXNSdmMvK0ZNeSs5ZTRpSnBPd1Fsd3l5aUppd0x5dEhwN3BWODNFL3kzN3BmdkEzQTY2dm4wUzE0NEZGUGhNaUtCQT09Cg=="
+      "url": "https://github.com/noilgu19/pecknote/releases/download/v0.3.4/PeckNote-0.3.4-mac-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTY3RsRlV5anJ3MUVsdmIxR0VubmtQaTBHbS9Pc2ZhbGthOTlMckxDYTdwZjNtaDBTbjBrb0lDc2lkRmZRWUNOL3IxWmN6YVA5dUZrdXJ0SzhwZ2k3SzU3OEIrd3pCZlFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Njg4NDUxCWZpbGU6UGVja05vdGUtMC4zLjQtbWFjLWFybTY0LmFwcC50YXIuZ3oJdmVyc2lvbjowLjMuNApjYmI4eW8wbzZjZE9FY0s2UXphdE0xU2RFQmpDNm5HbGpheHVoUEN1bTRBbDFBV09JVy8rc0laTXdXN2UwQ1EwdzQ0RWh1aEgvU1F6M2l4M0V1eHREUT09Cg=="
     },
     "windows-x86_64": {
-      "url": "https://github.com/noilgu19/pecknote/releases/download/v0.3.3/PeckNote-0.3.3-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTY3RsRlV5anJ3MUoxbC85YjV5RU00Rm0yT29ReG1BeGdhY0tJNE4xRzZzYTVMWEtZanhvNUpEd2NpWHpuUmdxK2o0eTdFVkFZWXVxTTY2OFloOTl4d1p2Uzc4Ump2SEE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTg5MzgwCWZpbGU6UGVja05vdGUtMC4zLjMtd2luZG93cy14NjQtc2V0dXAuZXhlCXZlcnNpb246MC4zLjMKaCs0UHVpOXlXb096MGRZTnNJWE56ZWdTSEZYV2VZR3lUZ1BhajMzanBJVWJIWDk0RzRmKzNWQnRlTFFWRW0waHRIbHhBRm9BV0plMWplM3RVOHNkQ2c9PQo="
+      "url": "https://github.com/noilgu19/pecknote/releases/download/v0.3.4/PeckNote-0.3.4-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTY3RsRlV5anJ3MUp6NnN4THZLSkRwcTlZdXg1bmhzK21MY0lFbWZlYkNsb3RaSlg3c1VxK2ZJR1FRUlJ3aVN3QTAwS1dSUXJKc0Z3K2s2QURQT0xHZ2cyQW5DVW5rR2dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Njg4NDUyCWZpbGU6UGVja05vdGUtMC4zLjQtd2luZG93cy14NjQtc2V0dXAuZXhlCXZlcnNpb246MC4zLjQKVnp0ZlRmdkFqWk85b2Rsdk5VZm1oZmR5eEFsaW1wY0F0VzJmZ2tZa3o2YThYVHRkSDVHWnY1TWFRWEdDcTZ3bzhLdDdKQXFrZS9rbXg4c01mWVVDQmc9PQo="
     }
   }
 }
